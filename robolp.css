@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #071F41;
+    color: #fff;
+    padding: 20px;
+    z-index: 999;
+  }
+
+.image {
+    order: 2;
+    margin-left: auto;
+}
+
+.text {
+    order: 1;
+    margin-right: auto;
+}
+
+.button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
